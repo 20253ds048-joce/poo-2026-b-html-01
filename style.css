@@ -32,9 +32,9 @@ main{
 }
 
 section{
-    background-color: #d3caca9a;
+    background-color: #d1dbb99a;
     border-radius: 8px;
-    padding: 20px
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -44,8 +44,42 @@ ul{
 }
 
 ul li{
-    background-color: antiquewhite;
+    background-color: rgba(204, 214, 209, 0.829);
     margin: 6px 0;
     padding: 10px;
     border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(177, 96, 96);
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#btn-saludar{
+    martig-top: 12px;
+    padding: 10px 24px;
+    background-color: #495368;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+
+}
+
+#btn-saludar:hover{
+    background-color: #394255;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #495368;
+    font-size: 0.8em;
+    color:#cec2c2;
 }
